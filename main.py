@@ -1,8 +1,8 @@
-from flask import Flask, request, render_template, jsonify  # Import jsonify
+!pip install flask
 import numpy as np
 import pandas as pd
 import pickle
-
+from flask import Flask, request, render_template, jsonify  # Import jsonify
 
 # flask app
 app = Flask(__name__)
